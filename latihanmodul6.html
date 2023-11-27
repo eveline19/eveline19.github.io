@@ -1,0 +1,220 @@
+<!--Inline styles-->
+<!DOCTYPE html>
+<html>
+    <body>
+        <h1 style="color:blue">This Is a Blue Heading</h1>
+    </body>
+</html>
+
+<!--Embedded styles-->
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            body{background-color: lightgray;}
+            h1{color: blue;}
+            p{color: green;}
+        </style>
+    </head>
+    <body>
+        <h1>Judul</h1>
+        <p>Paragraf</p>
+    </body>
+</html>
+
+<!--Linked Styles-->
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <h1>Ini Bagian Header</h1>
+        <p>Ini adalah paragraf</p>
+    </body>
+</html>
+
+<!--Latihan 1-->
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            h1{
+                color: blue;
+                font-family: verdana;
+                font-size: 300%;
+            }
+
+            p{
+                color: red;
+                font-family: courier;
+                font-size: 160%;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>Judul</h1>
+        <p>Paragraf</p>
+    </body>
+</html>
+
+<!--Alternatif Tampilan-->
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            p#p01{
+                color: blue;
+            }
+        </style>
+    </head>
+    <body>
+        <p>Ini paragraf yang standar.</p>
+        <p>Ini paragraf yang standar.</p>
+        <p>Masih yang standar kok.</p>
+        <p id="p01">Yang ini yang id-"p01".</p>
+    </body>
+</html>
+
+<!--Latihan 2-->
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            p.error{
+                color: green;
+            }
+        </style>
+    </head>
+    <body>
+        <p>ini paragraf.</p>
+        <p class="error">Ini paragraf setelan class error</p>
+        <p>ini paragraf.</p>
+        <p class="error">Ini paragraf setelan class error</p>
+    </body>
+</html>
+
+<!--Peletakan Style pada tag-->
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            table, th, td {
+                border: 1px solid black;
+                border-collapse: collapse;
+                padding: 13px;
+                text-align: left;
+            }
+        </style>
+    </head>
+    <body>
+        <table style="width: 100%;">
+        <tr>
+            <th>First Name</th>
+            <th>Last Name</th>
+            <th>Age</th>
+        </tr>
+        <tr>
+            <th>Rusi</th>
+            <th>Anandi</th>
+            <th>17</th>
+        </tr>
+    </table>
+    </body>
+</html>
+
+<!--Pentabelan menggunakan css id-->
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            table, th, td{
+                border: 1px solid black;
+                border-collapse: collapse;
+            }
+            th,td{
+                padding: 5px;
+                text-align: left;
+            }
+            table#01{
+                width: 100%;
+                background-color: #f1f1c1;
+            }
+        </style>
+    </head>
+    <body>
+        <table style="width: 100%;">
+            <tr>
+                <th>First Name</th>
+                <th>Last Name</th>
+                <th>Age</th>
+            </tr>
+            <tr>
+                <th>Rusi</th>
+                <th>Anandi</th>
+                <th>17</th>
+            </tr>
+        </table>
+        <br>
+
+        <table id="t01">
+            <tr>
+                <th>First Name</th>
+                <th>Last Name</th>
+                <th>Age</th>
+            </tr>
+            <tr>
+                <th>Novya</th>
+                <th>Selena</th>
+                <th>18</th>
+            </tr>
+        </table>
+    </body>
+</html>
+
+<!--Style tabel menggunakan class-->
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            table, th, td{
+                border: 1px solid black;
+                border-collapse: collapse;
+            }
+
+            table.name{
+                width: 100%;
+                background-color: #f1f1c1;
+            }
+        </style>
+    </head>
+    <body>
+        <table style="width: 100%;">
+            <tr>
+                <th>First Name</th>
+                <th>Last Name</th>
+                <th>Age</th>
+            </tr>
+            <tr>
+                <th>Novya</th>
+                <th>Selena</th>
+                <th>18</th>
+            </tr>
+        </table>
+        
+        <br>
+
+        <table class="names">
+            <tr>
+                <th>First Name</th>
+                <th>Last Name</th>
+                <th>Age</th>
+            </tr>
+            <tr>
+                <th>Novya</th>
+                <th>Selena</th>
+                <th>18</th>
+            </tr>
+        </table>
+    </body>
+</html>
