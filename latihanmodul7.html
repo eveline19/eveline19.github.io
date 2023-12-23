@@ -1,0 +1,415 @@
+<!--MENGGUNAKAN TAG <div></div>-->
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            .aatubag
+            {
+                background-color: black;
+                color: white;
+                margin: 20px;
+                padding: 20px;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="satubag">
+            <h2>Pengumuman</h2>
+            <p>Seminar Nasional</p>
+            <p>Dengan tema penguatan kualitas pendidikan tinggi melalui publikasi ilmiah bereputasi</p>
+        </div>
+    </body>
+</html>
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> CSS Layouting : Display </title>
+        <style>
+            .navigasi {text-align: center;}
+            .navigasi li {
+                display: inline-block;
+                background-color: red;
+                width: 150px;
+            height: 150px;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="header">
+            <h1>SELAMAT DATANG DI WEBKU</h1>
+        </div>
+        <div class="navigasi">
+            <ul>
+                <li><a href="#">HOME</a></li>
+                <li><a href="#">PROFIL</a></li>
+                <li><a href="#">CONTACT</a></li>
+            </ul>
+        </div>
+        <div class="main">
+            <h2>Bagian ini adalah isi web</h2>
+            <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor 
+                incididunt ut labore et dolore magna aliqua.</p>
+        </div>
+    </body>
+</html>
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> CSS Layouting : Display </title>
+        <style>
+            .satu {
+                width: 200px;
+                height: 200px;
+                background-color: pink;
+            }
+            .dua {
+                width: 100%;
+                height: 20%;
+                background-color: aqua;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="satu">
+        <div class="dua">
+            Hello World
+        </div>
+        </div>
+    </body>
+</html>
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> CSS Layouting : Display </title>
+        <style>
+            .satu {
+                width: 200px;
+                height: 200px;
+                background-color: pink;
+            overflow: auto;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="satu" >
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
+            In ipsa, quas, perspiciatis delectus rem suscipit blanditiis veniam 
+            repellat ut laboriosam sapiente nesciunt aspernatur molestiae reiciendis 
+            vel omnis dolores, obcaecati tenetur!
+        </div>
+    </body>
+</html>
+
+<!--5.1. Margin-->
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> CSS Layouting : Display</title>
+
+    <style>
+        div {
+            display: inline-block;
+        }
+    .satu {
+        width: 120px;
+        height: 120px;
+        background-color: lightblue;
+        margin-top: 10px;
+        margin-right: 0px;
+        margin-left: 30px;
+    }
+
+    .dua {
+        width: 100px;
+        height: 100px;
+        background-color: purple;
+        margin-right: 0px;
+        margin-bottom: 50px;
+        margin-left: -50px;
+    }
+    </style>
+    </head>
+    <body>
+        <div class="satu">Satu</div>
+        <div class="dua">Dua</div>
+    </body>
+</html>
+
+<!--5.2. Border-->
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> CSS Layouting : Display </title>
+    <style>
+        div {
+            display: inline-block;
+        }
+
+    .satu {
+        width: 120px;
+        height: 120px;
+        background-color: lightblue;
+        margin-top: 10px;
+        margin-left: 30px;
+        border-left: 5px dashed grey;
+    }
+
+    .dua {
+        width: 100px;
+        height: 100px;
+        background-color: purple;
+        margin-left: -50px;
+        border-top: 10px dotted white;
+    }
+    </style>
+    </head>
+    <body>
+        <div class="satu">Satu</div>
+        <div class="dua">Dua</div>
+    </body>
+</html>
+
+<!--5.3. Padding-->
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> CSS Layouting : Display </title>
+    <style>
+        div {
+            display: inline-block;
+        }
+    
+    .satu {
+        width: 120px;
+        height: 120px;
+        background-color: lightblue;
+        margin-top: 10px;
+        margin-left: 30px;
+        border-left: 5px dashed grey;
+        padding-left: 50px;
+    }
+
+    .dua {
+        width: 100px;
+        height: 100px;
+        background-color: purple;
+        margin-left: -50px;
+        border-left: 10px dotted white;
+        padding-top: 30px;
+    }
+    </style>
+    </head>
+    <body>
+        <div class="satu">Satu</div>
+        <div class="dua">Dua</div>
+    </body>
+</html>
+
+<!--boxsizing-->
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> CSS Layouting : Display </title>
+    <style>
+        div {
+            display: inline-block;
+        }
+
+    .satu {
+        width: 120px;
+        height: 120px;
+        background-color: lightblue;
+        margin-top: 10px;
+        margin-left: 30px;
+        border-left: 5px dashed grey;
+        padding-left: 50px;
+    }
+
+    .dua {
+        width: 100px;
+        height: 100px;
+        background-color: purple;
+        margin-left: -50px;
+        border-top: 10px dotted white;
+        padding-top: 30px;
+        box-sizing: border-box;
+    }
+    </style>
+    </head>
+    <body>
+        <div class="satu">Satu</div>
+        <div class="dua">Dua</div>
+    </body>
+</html>
+
+<!--7.1. Text Wrapping-->
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> Portofolio </title>
+    <style>
+
+    .container {
+        background-color: red;
+        margin: auto;
+        width: 500px;
+        padding: 5px;
+    }
+
+    .gambar {
+       height: 150px;
+       width: 150px;
+       float: left;
+       margin: 5px; 
+    }
+
+    .clear {
+        clear: left;
+    }
+
+/* coba float right juga */    
+    </style>
+    </head>
+    <body>
+        <div class="container">
+        <img class="gambar"src="http://pics.unipma.ac.id/content/fasilitas/MAKNALAMBANG_02_06_202_0_
+        07_22_02logo.png">
+        
+        <p class="tulisan"> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Facere 
+            voluptates exercitationem repellat. Reiciendis praesentium expedita nisi optio, 
+            aspernatur eum sapiente accusantium error ipsam. Qui laboriosam necessitatibus 
+            ratione enim odio deserunt?</p>
+        </div>
+        <div class="clear"></div>
+    </body>
+</html>
+
+<!--7.2. Image Gallery-->
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> Portofolio </title>
+    <style>
+        .container {
+            margin: auto;
+            width: 500px;
+        }
+
+    .galeri {
+        width: 100px;
+        height: 100px;
+        margin: 5px;
+        background-color: lightgreen;
+        float: left;
+        text-align: center;
+        line-height: 100px;
+    }
+
+    .clear {
+        clear: left;
+    }
+    </style>
+    </head>
+    <body>
+        <div class="container">
+            <div class="galeri">1</div>
+            <div class="galeri">2</div>
+            <div class="galeri">3</div>
+            <div class="galeri">4</div>
+            <div class="galeri">5</div>
+            <div class="galeri">6</div>
+            <div class="galeri">7</div>
+    </div>
+        <div class="clear"></div>
+        Texs selanjutnya akan di bawah, tidak disamping
+    </body>
+</html>
+
+<!--float-->
+<!--7.3. Multi-Colum Layout-->
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> Portofolio </title>
+    <style>
+    .container {
+        margin: auto;
+        width: 800px;
+    }
+
+    .sidebar {
+        width: 150px;
+        height: 500px;
+        background-color: lightgreen;
+        float: left;
+    }
+
+    .main {
+        width: 500px;
+        height: 500px;
+        background-color: lightgray;
+        float: left;
+    }
+
+    .rightbar {
+        width: 150px;
+        height: 500px;
+        background-color: red;
+        float: left;
+    }
+    </style>
+    </head>
+    <body>
+        <div class="container">
+            <div class="sidebar">1</div>
+            <div class="main">2</div>
+            <div class="rightbar">3</div>
+        </div>
+    </body>
+</html>
+
+<!--position-->
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> Position </title>
+    <style>
+    .container {
+        margin: auto;
+        width: 800px;
+        height: 2000px;
+    }
+
+    .sidebar, .main, .rightbar {
+        width: 100px;
+        height: 100px;
+    }
+
+    .sidebar {
+        background-color: lightgreen;
+    }
+
+    .main {
+        background-color: lightgrey;
+        position: fixed;
+        top: 0px;
+        left: 0px;
+    }
+
+    .rightbar {
+        background-color: red;
+    }
+    </style>
+    </head>
+    <body>
+        <div class="container">
+            <div class="sidebar">1</div>
+            <div class="main">2</div>
+            <div class="rightbar">3</div>
+        </div>
+    </body>
+</html>
+
